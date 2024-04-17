@@ -5,6 +5,7 @@ import (
 	"strings"
 )
 
+//Реализовать процедуру поиска самого длинного слова в тексте.
 // findLongestWord находит самое длинное слово в строке.
 func findLongestWord(text string) string {
 	words := strings.Fields(text) // Разбиваем строку на слова.
